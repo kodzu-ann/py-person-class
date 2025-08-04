@@ -7,7 +7,6 @@ class Person:
 
 
 def create_person_list(people: list) -> list:
-    Person.people.clear()
 
     new_person_list = []
     for person_list in people:
